@@ -15,10 +15,10 @@ phases:
     commands:
       - echo Build completed on `date`
       - echo weppp...
+      - pytest test_mainfile.py
 
-
-    run: |
-          pytest test_mainfile.py
+    #run: |
+     #     pytest test_mainfile.py
 
 
 
