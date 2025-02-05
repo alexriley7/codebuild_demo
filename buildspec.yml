@@ -5,6 +5,8 @@ phases:
     commands:
       - echo Installing dependencies...
       #- npm install
+      - pip install pytest
+
   build:
     commands:
       - echo Running tests...
