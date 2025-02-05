@@ -15,6 +15,14 @@ phases:
     commands:
       - echo Build completed on `date`
       - echo weppp...
+
+
+    run: |
+          pytest test_mainfile.py
+
+
+
+      
 artifacts:
   files:
     - '**/*'
